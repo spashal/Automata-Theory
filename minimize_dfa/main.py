@@ -119,7 +119,7 @@ json_out = {}
 index = []
 for i in sets:
     if start_states[0] in i:
-        index = i
+        index.append(i)
         break
 
 json_out['states'] = sets
